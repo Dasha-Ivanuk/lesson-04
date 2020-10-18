@@ -1,0 +1,49 @@
+form div{
+    margin: 0 auto;
+    width: 68%
+}
+form label{
+    background: transparent;
+    padding: 10px;
+    display: block;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+form label:nth-of-type(even) {
+    background: #7A7593;
+}
+form [type=checkbox] {
+ display: none;   
+ }
+form [type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+form label span{
+    font-style: 13px;
+}
+form label span:before {
+    content: "(";
+}
+form label span:after {
+    content: ")";
+}
+form [type=checkbox]:active + label {
+    text-decoration: coral;
+}
+form [type=checkbox] + label:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(https://jetbrains.design/intellij/images/checkbox/checkboxes-macos.png);
+    margin-right: 5px;
+    background-position:0 -4px;
+    margin-bottom: -3px;
+}
+form [type=checkbox] + label:before {
+    background-position: 0 -44px;
+}
+form label:hover{
+   border-color: #fff;
+    background: #5f5a78;
+}
