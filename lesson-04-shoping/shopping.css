@@ -1,0 +1,25 @@
+.yellow {
+    color: rgb(250, 194, 28);
+    background-color: rgba(153, 165, 153, 0.89);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+body {
+    background-color: rgba(63,64,55,0.89);
+}
+li:hover {
+    background-color: rgba(164,137,27,0.89);
+}
+ol :nth-child(odd) {
+    background-color: rgba(111,121,111,0.89)
+}
+div{
+    text-align: center;
+}
+*{transition: all .1s ease-in;}
+ol [type=checkbox]:checked + li {
+    text-decoration: line-through;
+}
+
+
